@@ -18,4 +18,8 @@
     <Folder Include="wwwroot\templates\landing\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JaeaPage.Models\JaeaPage.Models.csproj" />
+  </ItemGroup>
+
 </Project>

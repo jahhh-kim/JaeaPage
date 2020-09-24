@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaeaPage", "JaeaPage\JaeaPage.csproj", "{CAA59D9C-AF4C-4033-BA21-A44813E41AAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaeaPage.Models", "JaeaPage.Models\JaeaPage.Models.csproj", "{75E66CE9-1D05-4C0A-86E2-D464DB37EE56}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JaeaPage.SqlServer", "JaeaPage.SqlServer\JaeaPage.SqlServer.sqlproj", "{97112FED-F525-4FC6-9228-070E4966B2AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{CAA59D9C-AF4C-4033-BA21-A44813E41AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA59D9C-AF4C-4033-BA21-A44813E41AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA59D9C-AF4C-4033-BA21-A44813E41AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E66CE9-1D05-4C0A-86E2-D464DB37EE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E66CE9-1D05-4C0A-86E2-D464DB37EE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E66CE9-1D05-4C0A-86E2-D464DB37EE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E66CE9-1D05-4C0A-86E2-D464DB37EE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97112FED-F525-4FC6-9228-070E4966B2AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
